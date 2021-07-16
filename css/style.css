@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));
+  height: 100vh;
+}
+.logo {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  height: 100px;
+  width: 100px;
+  animation: san 2s linear infinite alternate;
+}
+@keyframes san {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.container {
+  display: block;
+  max-width: 60%;
+  margin: auto;
+  /* background-color: rgb(93 216 137); */
+  height: 65vh;
+  padding: 5px;
+  overflow-y: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.message {
+  background-color: rgb(93 216 137);
+  margin: 15px 4px;
+  width: 30%;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+.right {
+  float: right;
+  clear: both;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.send {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  /* background-color: rgb(162, 77, 241); */
+  padding: 5px;
+}
+#form_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 20px; */
+}
+#Messageinp {
+  width: 90%;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#send {
+  width: 10%;
+  padding: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Otomanopee One", sans-serif;
+  background-color: rgb(93 216 137);
+}
+.para {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Otomanopee One", sans-serif;
+  font-weight: bold;
+  color: rgb(231, 26, 231);
+}
+@media (max-width: 716px) {
+  #send {
+    width: 15%;
+    font-size: 12px;
+  }
+  #Messageinp {
+    width: 85%;
+  }
+}
+@media (max-width: 450px) {
+  #send {
+    width: 25%;
+    font-size: 12px;
+  }
+  #Messageinp {
+    width: 85%;
+  }
+}
