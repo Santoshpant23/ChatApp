@@ -1,6 +1,9 @@
 # ChatApp
-This is a ChatApp that i made using Socket.IO.
-I used node.js as a backend for making this chatting webapp.
+
+Hello Everyone, 
+
+This is a chat app that I made using SocketIO.
+I used node.js as a backend for making this chatting web app.
 Anyone can use this app in their project.
 
 Here are some of the images of the App.
